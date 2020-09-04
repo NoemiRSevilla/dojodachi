@@ -1,0 +1,6 @@
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/obj/Debug/netcoreapp2.2/dojodachi.csprojAssemblyReference.cache
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/obj/Debug/netcoreapp2.2/dojodachi.csproj.CoreCompileInputs.cache
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/obj/Debug/netcoreapp2.2/dojodachi.RazorAssemblyInfo.cache
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/obj/Debug/netcoreapp2.2/dojodachi.RazorAssemblyInfo.cs
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/obj/Debug/netcoreapp2.2/dojodachi.AssemblyInfoInputs.cache
+/Users/IrockMyWarlock/Desktop/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/obj/Debug/netcoreapp2.2/dojodachi.AssemblyInfo.cs

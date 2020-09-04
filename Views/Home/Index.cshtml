@@ -1,0 +1,54 @@
+@using dojodachi.Models
+@models Dojodachi
+
+    <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body>
+<div class="bigbox container-fluid">
+    <div class="row">
+        <h1 class="col">Fullness: @Model.Fullness</h1>
+        <h1 class="col">Happiness: @Model.Happiness</h1>
+        <h1 class="col">Meals: @Model.Meals</h1>
+        <h1 class="col">Energy: @Model.Energy </h1>
+    </div>
+    <div class="container">
+        @Model
+    </div>
+    <div class="row">
+        <form asp-action="Feed" method="post">
+            <input type="submit" value="Feed"
+            class="btn btn-warning col" aria-pressed="true">
+        </form>
+        <form asp-action="Play" method="post">
+            <input type="submit" value="Play"
+            class="btn btn-warning col" aria-pressed="true">
+        </form>                    
+        <form asp-action="Work" method="post">
+            <input type="submit" value="Work"
+            class="btn btn-warning col" aria-pressed="true">
+        </form>
+        <form asp-action="Sleep" method="post">
+            <input type="submit" value="Sleep"
+            class="btn btn-warning col" aria-pressed="true">
+        </form>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("form").submit(function(event){ 
+            event.preventDefault();
+            $.ajax({              
+                url: "/",
+                method: "POST"
+            })
+            .done(function(response){
+                $("body").html(response);
+            });
+
+        });
+    });
+    
+</script>
+</body>

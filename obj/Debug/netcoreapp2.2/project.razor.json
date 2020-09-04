@@ -1,0 +1,30 @@
+{
+  "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/dojodachi.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "dojodachi",
+  "Documents": [
+    {
+      "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/IrockMyWarlock/Documents/CODING STUFF/codingdojo/c#/ASPNET/ASPII/dojodachi/dojodachi/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
